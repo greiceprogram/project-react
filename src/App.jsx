@@ -1,6 +1,6 @@
 import "./App.css"
 // import Square from "./styles/styled-component/components/Square";
-// import ContactComposition from "./components/Contact"
+// // import ContactComposition from "./components/Contact"
 import TeamComposition from "./components/Team";
 
 
@@ -27,7 +27,18 @@ function App() {
 
 //     <body>
 
-//       <Square />
+//       <Square borderStyle= "dotted" />
+      
+//     </body>
+//   );
+// }
+
+// function App() {
+//   return (
+
+//     <body>
+
+//       <Square  />
       
 //     </body>
 //   );
