@@ -12,7 +12,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
-background-color: white;
+background-image: url(./components/Team/src/assets/images/fundo.avif);
+background-repeat: no-repeat;
+background-size: cover;
+
 gap: 40px;  
 }
 
