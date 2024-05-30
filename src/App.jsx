@@ -1,7 +1,28 @@
 import "./App.css"
+import { Header } from "./styles/styled-component/components/Header/src/pattern/composition";
+
+
 // import Square from "./styles/styled-component/components/Square";
+
 // // import ContactComposition from "./components/Contact"
-import TeamComposition from "./components/Team";
+// import TeamComposition from "./components/Team";
+
+function App() {
+  return (
+
+    <body>
+        
+      <Header.Title  />
+      
+    </body>
+  );
+}
+
+
+export default App;
+
+
+
 
 
 // function App() {
@@ -13,13 +34,13 @@ import TeamComposition from "./components/Team";
 //   );
 // }
 
-function App() {
-  return (
-    <body>
-      <TeamComposition />
-    </body>
-  );
-}
+// function App() {
+//   return (
+//     <body>
+//       <TeamComposition />
+//     </body>
+//   );
+// }
 
 
 // function App() {
@@ -44,4 +65,3 @@ function App() {
 //   );
 // }
 
-export default App;
