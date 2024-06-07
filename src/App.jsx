@@ -25,36 +25,13 @@ import Navbar from "./hooks/components/Navbar";
 
 function App() {
 
-  const pages = [
-    {
-        title: "Page one",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing."
-    },
-
-    {
-      title: "Page one",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing."
-  },
-
-  {
-    title: "Page one",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing."
-},
-
-{
-  title: "Page one",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing."
-},
-]
 
   return (
 
     <body>
-        
-      {/* <DropdwnMenu pages={pages} /> */}
 
-      <Navbar /> 
-      
+      <Navbar />   
+  
     </body>
   );
 }
