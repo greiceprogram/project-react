@@ -1,5 +1,6 @@
-import "./App.css"
-import DropdwnMenu from "./hooks/components/DropdwnMenu/src";
+import "./App.css";
+// import DropdwnMenu from "./hooks/components/DropdwnMenu/src";
+import Navbar from "./hooks/components/Navbar";
 
 // import { Header } from "./styles/styled-component/components/Header/src/pattern/composition";
 
@@ -43,14 +44,16 @@ function App() {
 {
   title: "Page one",
   description: "Lorem ipsum dolor sit amet consectetur adipisicing."
-}
+},
 ]
 
   return (
 
     <body>
         
-      <DropdwnMenu pages={pages} />
+      {/* <DropdwnMenu pages={pages} /> */}
+
+      <Navbar /> 
       
     </body>
   );

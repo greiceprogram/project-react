@@ -6,18 +6,17 @@
   border: none;
 }
 
-body {
+/* body {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
-/* background-image: url(./styles/styled-component/components/Header/src/assets/images/5.png); */
+background-image: url(./styles/styled-component/components/Header/src/assets/images/5.png);
 background-repeat: no-repeat;
 background-size: cover;
-
 gap: 40px;  
-}
+} */
 
 .card {
   display: flex;
