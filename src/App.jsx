@@ -2,8 +2,9 @@ import React from "react";
 import "./App.css";
 
 // import DropdwnMenu from "./hooks/components/DropdwnMenu/src";
-import Navbar from "./hooks/components/Navbar";
-import Accorrdion from "./hooks/components/Accorrdion";
+// import Navbar from "./hooks/components/Navbar";
+import Accordion from "./hooks/components/Accordion";
+
 
 // import { Header } from "./styles/styled-component/components/Header/src/pattern/composition";
 
@@ -46,7 +47,9 @@ function App() {
 
     <body>
 
-      <Accorrdion />   
+    
+    <Accordion />
+
   
     </body>
   );
