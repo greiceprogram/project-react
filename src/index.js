@@ -10,7 +10,7 @@ root.render(
       <React.StrictMode>
         <App />
       </React.StrictMode>
-    </BrowserRouter>
+    </BrowserRouter>changing the name of the DropdownMenu folder. Adding page routing to the NavBar
 );
 
 // If you want to start measuring performance in your app, pass a function
