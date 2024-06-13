@@ -4,7 +4,7 @@ import * as S from "./style"
 
 
 
-export default function DropdwnMenu (props) {
+export default function DropdownMenu (props) {
 
     console.log (props.pages)
 

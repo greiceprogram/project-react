@@ -1,9 +1,11 @@
 import React from "react";
 import "./App.css";
 
-// import DropdwnMenu from "./hooks/components/DropdwnMenu/src";
-// import Navbar from "./hooks/components/Navbar";
-import Accordion from "./hooks/components/Accordion";
+// import DropdownMenu from "./hooks/components/DropdownMenu/src";
+import Navbar from "./hooks/components/Navbar";
+import { Route, Routes } from "react-router-dom";
+import TeamComposition from "./components/Team"
+// import Accordion from "./hooks/components/Accordion";
 
 
 // import { Header } from "./styles/styled-component/components/Header/src/pattern/composition";
@@ -40,17 +42,19 @@ import Accordion from "./hooks/components/Accordion";
 //   );
 // }
 
-function App() {
-
-
+function Home() {
   return (
+    <Navbar />
+  )
+}
 
+function App() {
+  return (
     <body>
-
-    
-    <Accordion />
-
-  
+      <Routes>
+        <Route path="/" Component={Home} />
+        <Route path="/teams" Component={TeamComposition} />
+      </Routes>
     </body>
   );
 }
